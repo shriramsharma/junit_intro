@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Introduction to JUnit.</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="rounded-corners">
+		<div class="container">
+			<div>
+				<h2>Contacts</h2>
+				<form id="addUserForm">
+					<label>First Name:</label>
+					<input type="text" id="firstName" name="firstName" />
+					<label>Last Name:</label>
+					<input type="text" id="lastName" name="lastName" />
+					<label>Email:</label>
+					<input type="text" id="email" name="email" />
+					<input type="submit" name="submitAddUserForm" value="Add">
+				</form>
+			</div>
+			
+			<div style="margin-left: 65px; margin-bottom:13px;">
+		
+			
+				<div id="searchContainer" style="margin-top: 15px; margin-bottom:3px;">
+					<label>Search:</label>
+					<input type="text" id="searchString" name="searchString" />
+				</div>
+				
+				<div>
+					<table id="contactsTable" class="gridTable">
+						<thead>
+							<tr>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Email</th>
+							</tr>
+						</thead>
+						<tbody id="rows">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
