@@ -19,7 +19,7 @@ import com.ensco.junitintro.service.impl.UserService;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/common_application_context.xml",
 		"/test_application_context.xml" })
-public class BaseTest extends TestCase {
+public class sampleJunitTest extends TestCase {
 
 	private IUserDao userDao;
 	private IUserService userService;
