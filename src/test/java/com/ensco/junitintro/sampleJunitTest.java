@@ -1,15 +1,25 @@
 package com.ensco.junitintro;
 
+import static org.easymock.EasyMock.createMock;
+import static org.easymock.EasyMock.expect;
+import static org.easymock.EasyMock.isA;
+import static org.easymock.EasyMock.replay;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import junit.framework.TestCase;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.ensco.junitintro.dao.IUserDao;
+import com.ensco.junitintro.dao.impl.UserDao;
 import com.ensco.junitintro.exceptions.DuplicateDataException;
 import com.ensco.junitintro.exceptions.InvalidParameterException;
 import com.ensco.junitintro.exceptions.MissingRequiredParameterException;
@@ -17,8 +27,7 @@ import com.ensco.junitintro.service.IUserService;
 import com.ensco.junitintro.service.impl.UserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = { "/common_application_context.xml",
-		"/test_application_context.xml" })
+@ContextConfiguration(locations = { "classpath:/junitintro_context_test.xml" })
 public class sampleJunitTest extends TestCase {
 
 	private IUserDao userDao;
@@ -27,8 +36,33 @@ public class sampleJunitTest extends TestCase {
 	@Before
 	public void setUp() {
 
+		userDao = new UserDao();
 		userDao = createMock(IUserDao.class);
 		userService = new UserService();
+		userService.setUserDao(userDao);
+
+	}
+
+	@Test(expected = DuplicateDataException.class)
+	public void testAddUser10() {
+
+		String firstName = "Test User First Name";
+		String lastName = "Test User Last Name";
+		String email = "testUser@testDomain.com";
+		List<Map<String, Object>> user = new ArrayList<Map<String, Object>>();
+
+		Map<String, Object> userMap = new HashMap<String, Object>();
+		userMap.put("firstName", "Test User First Name");
+		userMap.put("lastName", "Test User Last Name");
+		userMap.put("email", "testUser@testDomain.com");
+
+		user.add(userMap);
+
+		expect(userDao.getUserByEmail(isA(String.class))).andReturn(user);
+
+		replay(userDao);
+
+		userService.addUser(firstName, lastName, email);
 
 	}
 
@@ -118,23 +152,6 @@ public class sampleJunitTest extends TestCase {
 		userService.addUser(firstName, lastName, email);
 	}
 
-	@Test(expected = DuplicateDataException.class)
-	public void testAddUser10() {
-
-		String firstName = "Test User First Name";
-		String lastName = "Test User Last Name";
-		String email = "testUser@testDomain.com";
-		List user = new ArrayList();
-		user.add("testExistingUser");
-
-		expect(userDao.getUserByEmail(isA(String.class))).andReturn(user);
-
-		replay(userDao);
-
-		userService.addUser(firstName, lastName, email);
-
-	}
-
 	@Test(expected = MissingRequiredParameterException.class)
 	public void testgetUser1() {
 
@@ -143,4 +160,49 @@ public class sampleJunitTest extends TestCase {
 
 	}
 
+	@Test
+	public void testMissingRequiredParameterExceptionGetMessage() {
+
+		MissingRequiredParameterException excp = new MissingRequiredParameterException(
+				"");
+
+		String expectedExceptionMessageText = "This is a sample exception message";
+
+		excp.setMessage(expectedExceptionMessageText);
+
+		String actualExceptionMsg = excp.getMessage();
+
+		assertEquals(expectedExceptionMessageText, actualExceptionMsg);
+
+	}
+
+	@Test
+	public void testInvalidParameterExceptionGetMessage() {
+
+		InvalidParameterException excp = new InvalidParameterException("");
+
+		String expectedExceptionMessageText = "This is a sample exception message";
+
+		excp.setMessage(expectedExceptionMessageText);
+
+		String actualExceptionMsg = excp.getMessage();
+
+		assertEquals(expectedExceptionMessageText, actualExceptionMsg);
+
+	}
+
+	@Test
+	public void testDuplicateDataExceptionGetMessage() {
+
+		DuplicateDataException excp = new DuplicateDataException("");
+
+		String expectedExceptionMessageText = "This is a sample exception message";
+
+		excp.setMessage(expectedExceptionMessageText);
+
+		String actualExceptionMsg = excp.getMessage();
+
+		assertEquals(expectedExceptionMessageText, actualExceptionMsg);
+
+	}
 }

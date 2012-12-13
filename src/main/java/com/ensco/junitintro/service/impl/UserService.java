@@ -30,6 +30,14 @@ public class UserService implements IUserService {
 	@Autowired
 	private IUserDao userDao;
 
+	public IUserDao getUserDao() {
+		return userDao;
+	}
+
+	public void setUserDao(IUserDao userDao) {
+		this.userDao = userDao;
+	}
+
 	/*
 	 * (non-Javadoc)
 	 * 
