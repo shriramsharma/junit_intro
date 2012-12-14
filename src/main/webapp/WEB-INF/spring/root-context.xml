@@ -13,10 +13,10 @@
 			<value>jdbc:mysql://localhost:3306/JUNIT_INTRO</value>
 		</property>
 		 <property name="username"> 
-		 	<value>root</value>
+		 	<value>tmuser</value>
 		</property> 
 		<property name="password"> 
-			<value>root</value>
+			<value>tmuser</value>
 		</property> 
 	</bean>	
 		
