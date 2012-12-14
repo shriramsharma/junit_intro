@@ -3,7 +3,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
 
-	<bean id="firefoxDriver" class="org.openqa.selenium.firefox.FirefoxDriver" destroy-method="quit"/>
+	<bean id="firefoxDriver" class="org.openqa.selenium.firefox.FirefoxDriver" destroy-method="quit" lazy-init="true"/>
+	<bean id="htmlUnitDriver" class="org.openqa.selenium.htmlunit.HtmlUnitDriver" destroy-method="quit" lazy-init="true">
+		<constructor-arg value="true" type="boolean"></constructor-arg>
+	</bean>
+	<bean id="chromeDriver" class="org.openqa.selenium.chrome.ChromeDriver" destroy-method="quit" lazy-init="true"/>
 
+	<bean id="siteUri" class="java.net.URI">
+		<constructor-arg value="http://localhost:8080/junitIntro" />	
+	</bean>
 
 </beans>
