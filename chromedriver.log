@@ -1,907 +1,907 @@
-[0.000][INFO]:      ChromeDriver 23.0.1240.0 /Users/shriramsharma/SU/Sandbox/junit_intro/src/test/resources/chromedriver
-[0.583][FINE]:      Initializing session with capabilities {
-   "browserName": "chrome",
-   "chrome.switches": [  ],
-   "chromeOptions": {
-      "args": [  ],
-      "extensions": [  ]
-   },
-   "platform": "ANY",
-   "version": ""
-}
-
-[0.584][INFO]:      Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --use-mock-keychain --ignore-certificate-errors about:blank
-[1.247][INFO]:      Connected to Chrome successfully. Version: 23.0.1271.97
-[1.275][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957)
-[1.276][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "acceptSslCerts": false,
-      "applicationCacheEnabled": false,
-      "browserConnectionEnabled": false,
-      "browserName": "chrome",
-      "chrome.chromedriverVersion": "23.0.1240.0",
-      "chrome.nativeEvents": false,
-      "cssSelectorsEnabled": true,
-      "databaseEnabled": false,
-      "handlesAlerts": true,
-      "javascriptEnabled": true,
-      "locationContextEnabled": false,
-      "nativeEvents": true,
-      "platform": "mac",
-      "rotatable": false,
-      "takesScreenshot": true,
-      "version": "23.0.1271.97",
-      "webStorageEnabled": true
-   }
-}
-
-[1.343][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/url) with params {
-   "url": "http://localhost:8080/junitIntro"
-}
-
-[1.343][FINER]:     Waiting for all views to stop loading...
-[1.343][FINER]:     Done waiting for all views to stop loading
-[1.407][FINER]:     Waiting for all views to stop loading...
-[1.409][FINER]:     Done waiting for all views to stop loading
-[1.409][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/url) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[1.412][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/title)
-[1.412][FINER]:     Waiting for all views to stop loading...
-[1.412][FINER]:     Done waiting for all views to stop loading
-[1.438][FINER]:     Waiting for all views to stop loading...
-[1.438][FINER]:     Done waiting for all views to stop loading
-[1.438][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/title) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "Introduction to JUnit."
-}
-
-[1.446][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "link text",
-   "value": "Proceed"
-}
-
-[1.446][FINER]:     Waiting for all views to stop loading...
-[1.447][FINER]:     Done waiting for all views to stop loading
-[1.468][FINER]:     Waiting for all views to stop loading...
-[1.468][FINER]:     Done waiting for all views to stop loading
-[1.468][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463594932"
-   } ]
-}
-
-[1.474][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "link text",
-   "value": "Proceed"
-}
-
-[1.474][FINER]:     Waiting for all views to stop loading...
-[1.475][FINER]:     Done waiting for all views to stop loading
-[1.490][FINER]:     Waiting for all views to stop loading...
-[1.491][FINER]:     Done waiting for all views to stop loading
-[1.491][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463594932"
-   }
-}
-
-[1.497][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463594932/click) with params {
-   "id": ":wdc:1355463594932"
-}
-
-[1.497][FINER]:     Waiting for all views to stop loading...
-[1.497][FINER]:     Done waiting for all views to stop loading
-[1.542][FINER]:     Waiting for all views to stop loading...
-[1.771][FINER]:     Done waiting for all views to stop loading
-[1.771][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463594932/click) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[1.773][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[1.773][FINER]:     Waiting for all views to stop loading...
-[1.774][FINER]:     Done waiting for all views to stop loading
-[1.824][FINER]:     Waiting for all views to stop loading...
-[1.825][FINER]:     Done waiting for all views to stop loading
-[1.825][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[1.833][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/url) with params {
-   "url": "http://localhost:8080/junitIntro"
-}
-
-[1.833][FINER]:     Waiting for all views to stop loading...
-[1.834][FINER]:     Done waiting for all views to stop loading
-[1.849][FINER]:     Waiting for all views to stop loading...
-[1.856][FINER]:     Done waiting for all views to stop loading
-[1.857][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/url) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[1.861][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "link text",
-   "value": "Proceed"
-}
-
-[1.861][FINER]:     Waiting for all views to stop loading...
-[1.861][FINER]:     Done waiting for all views to stop loading
-[1.867][FINER]:     Waiting for all views to stop loading...
-[1.867][FINER]:     Done waiting for all views to stop loading
-[1.867][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595332"
-   }
-}
-
-[1.870][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595332/click) with params {
-   "id": ":wdc:1355463595332"
-}
-
-[1.870][FINER]:     Waiting for all views to stop loading...
-[1.871][FINER]:     Done waiting for all views to stop loading
-[1.911][FINER]:     Waiting for all views to stop loading...
-[1.933][FINER]:     Done waiting for all views to stop loading
-[1.933][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595332/click) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[1.936][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[1.937][FINER]:     Waiting for all views to stop loading...
-[1.942][FINER]:     Done waiting for all views to stop loading
-[1.970][FINER]:     Waiting for all views to stop loading...
-[1.974][FINER]:     Done waiting for all views to stop loading
-[1.974][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[1.981][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "addUserForm"
-}
-
-[1.981][FINER]:     Waiting for all views to stop loading...
-[1.982][FINER]:     Done waiting for all views to stop loading
-[2.001][FINER]:     Waiting for all views to stop loading...
-[2.001][FINER]:     Done waiting for all views to stop loading
-[2.001][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595465"
-   } ]
-}
-
-[2.004][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "submitAddUserForm"
-}
-
-[2.004][FINER]:     Waiting for all views to stop loading...
-[2.005][FINER]:     Done waiting for all views to stop loading
-[2.021][FINER]:     Waiting for all views to stop loading...
-[2.021][FINER]:     Done waiting for all views to stop loading
-[2.021][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595466"
-   } ]
-}
-
-[2.024][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.024][FINER]:     Waiting for all views to stop loading...
-[2.024][FINER]:     Done waiting for all views to stop loading
-[2.027][FINER]:     Waiting for all views to stop loading...
-[2.027][FINER]:     Done waiting for all views to stop loading
-[2.027][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.031][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.031][FINER]:     Waiting for all views to stop loading...
-[2.031][FINER]:     Done waiting for all views to stop loading
-[2.034][FINER]:     Waiting for all views to stop loading...
-[2.035][FINER]:     Done waiting for all views to stop loading
-[2.036][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.041][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.041][FINER]:     Waiting for all views to stop loading...
-[2.041][FINER]:     Done waiting for all views to stop loading
-[2.046][FINER]:     Waiting for all views to stop loading...
-[2.046][FINER]:     Done waiting for all views to stop loading
-[2.046][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.053][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "firstName"
-}
-
-[2.053][FINER]:     Waiting for all views to stop loading...
-[2.054][FINER]:     Done waiting for all views to stop loading
-[2.074][FINER]:     Waiting for all views to stop loading...
-[2.075][FINER]:     Done waiting for all views to stop loading
-[2.075][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595467"
-   } ]
-}
-
-[2.078][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "lastName"
-}
-
-[2.078][FINER]:     Waiting for all views to stop loading...
-[2.079][FINER]:     Done waiting for all views to stop loading
-[2.096][FINER]:     Waiting for all views to stop loading...
-[2.096][FINER]:     Done waiting for all views to stop loading
-[2.096][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595468"
-   } ]
-}
-
-[2.099][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "email"
-}
-
-[2.099][FINER]:     Waiting for all views to stop loading...
-[2.099][FINER]:     Done waiting for all views to stop loading
-[2.113][FINER]:     Waiting for all views to stop loading...
-[2.113][FINER]:     Done waiting for all views to stop loading
-[2.113][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595469"
-   } ]
-}
-
-[2.115][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.115][FINER]:     Waiting for all views to stop loading...
-[2.116][FINER]:     Done waiting for all views to stop loading
-[2.119][FINER]:     Waiting for all views to stop loading...
-[2.119][FINER]:     Done waiting for all views to stop loading
-[2.119][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.122][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "searchString"
-}
-
-[2.122][FINER]:     Waiting for all views to stop loading...
-[2.122][FINER]:     Done waiting for all views to stop loading
-[2.134][FINER]:     Waiting for all views to stop loading...
-[2.134][FINER]:     Done waiting for all views to stop loading
-[2.134][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595470"
-   } ]
-}
-
-[2.137][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/elements) with params {
-   "using": "id",
-   "value": "contactsTable"
-}
-
-[2.137][FINER]:     Waiting for all views to stop loading...
-[2.137][FINER]:     Done waiting for all views to stop loading
-[2.148][FINER]:     Waiting for all views to stop loading...
-[2.148][FINER]:     Done waiting for all views to stop loading
-[2.148][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/elements) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": [ {
-      "ELEMENT": ":wdc:1355463595471"
-   } ]
-}
-
-[2.151][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.151][FINER]:     Waiting for all views to stop loading...
-[2.152][FINER]:     Done waiting for all views to stop loading
-[2.154][FINER]:     Waiting for all views to stop loading...
-[2.154][FINER]:     Done waiting for all views to stop loading
-[2.154][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.157][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.157][FINER]:     Waiting for all views to stop loading...
-[2.157][FINER]:     Done waiting for all views to stop loading
-[2.159][FINER]:     Waiting for all views to stop loading...
-[2.160][FINER]:     Done waiting for all views to stop loading
-[2.160][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.162][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.162][FINER]:     Waiting for all views to stop loading...
-[2.162][FINER]:     Done waiting for all views to stop loading
-[2.165][FINER]:     Waiting for all views to stop loading...
-[2.165][FINER]:     Done waiting for all views to stop loading
-[2.165][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.169][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/url) with params {
-   "url": "http://localhost:8080/junitIntro"
-}
-
-[2.169][FINER]:     Waiting for all views to stop loading...
-[2.169][FINER]:     Done waiting for all views to stop loading
-[2.191][FINER]:     Waiting for all views to stop loading...
-[2.195][FINER]:     Done waiting for all views to stop loading
-[2.195][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/url) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[2.197][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "link text",
-   "value": "Proceed"
-}
-
-[2.197][FINER]:     Waiting for all views to stop loading...
-[2.198][FINER]:     Done waiting for all views to stop loading
-[2.205][FINER]:     Waiting for all views to stop loading...
-[2.205][FINER]:     Done waiting for all views to stop loading
-[2.205][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595669"
-   }
-}
-
-[2.207][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595669/click) with params {
-   "id": ":wdc:1355463595669"
-}
-
-[2.208][FINER]:     Waiting for all views to stop loading...
-[2.209][FINER]:     Done waiting for all views to stop loading
-[2.248][FINER]:     Waiting for all views to stop loading...
-[2.265][FINER]:     Done waiting for all views to stop loading
-[2.265][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595669/click) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[2.268][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[2.268][FINER]:     Waiting for all views to stop loading...
-[2.269][FINER]:     Done waiting for all views to stop loading
-[2.295][FINER]:     Waiting for all views to stop loading...
-[2.295][FINER]:     Done waiting for all views to stop loading
-[2.295][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[2.298][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "addUserForm"
-}
-
-[2.298][FINER]:     Waiting for all views to stop loading...
-[2.298][FINER]:     Done waiting for all views to stop loading
-[2.308][FINER]:     Waiting for all views to stop loading...
-[2.309][FINER]:     Done waiting for all views to stop loading
-[2.309][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595773"
-   }
-}
-
-[2.311][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595773/submit) with params {
-   "id": ":wdc:1355463595773"
-}
-
-[2.311][FINER]:     Waiting for all views to stop loading...
-[2.311][FINER]:     Done waiting for all views to stop loading
-[2.336][FINER]:     Waiting for all views to stop loading...
-[2.336][FINER]:     Done waiting for all views to stop loading
-[2.336][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595773/submit) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": null
-}
-
-[2.841][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/alert_text)
-[2.841][FINER]:     Waiting for all views to stop loading...
-[2.841][FINER]:     Done waiting for all views to stop loading
-[2.842][FINER]:     Waiting for all views to stop loading...
-[2.842][FINER]:     Done waiting for all views to stop loading
-[2.842][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/alert_text) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "Error occured"
-}
-
-[2.844][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/accept_alert) with params {
-
-}
-
-[2.844][FINER]:     Waiting for all views to stop loading...
-[2.845][FINER]:     Done waiting for all views to stop loading
-[2.880][FINER]:     Waiting for all views to stop loading...
-[2.885][FINER]:     Done waiting for all views to stop loading
-[2.886][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/accept_alert) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[2.888][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "firstName"
-}
-
-[2.888][FINER]:     Waiting for all views to stop loading...
-[2.888][FINER]:     Done waiting for all views to stop loading
-[2.900][FINER]:     Waiting for all views to stop loading...
-[2.900][FINER]:     Done waiting for all views to stop loading
-[2.900][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595774"
-   }
-}
-
-[2.903][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595774/value) with params {
-   "id": ":wdc:1355463595774",
-   "value": [ "John" ]
-}
-
-[2.903][FINER]:     Waiting for all views to stop loading...
-[2.903][FINER]:     Done waiting for all views to stop loading
-[3.044][FINER]:     Waiting for all views to stop loading...
-[3.044][FINER]:     Done waiting for all views to stop loading
-[3.044][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595774/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[3.046][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "lastName"
-}
-
-[3.046][FINER]:     Waiting for all views to stop loading...
-[3.047][FINER]:     Done waiting for all views to stop loading
-[3.057][FINER]:     Waiting for all views to stop loading...
-[3.058][FINER]:     Done waiting for all views to stop loading
-[3.058][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595775"
-   }
-}
-
-[3.060][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595775/value) with params {
-   "id": ":wdc:1355463595775",
-   "value": [ "Anderson" ]
-}
-
-[3.060][FINER]:     Waiting for all views to stop loading...
-[3.060][FINER]:     Done waiting for all views to stop loading
-[3.245][FINER]:     Waiting for all views to stop loading...
-[3.245][FINER]:     Done waiting for all views to stop loading
-[3.245][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595775/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[3.247][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "email"
-}
-
-[3.247][FINER]:     Waiting for all views to stop loading...
-[3.247][FINER]:     Done waiting for all views to stop loading
-[3.259][FINER]:     Waiting for all views to stop loading...
-[3.259][FINER]:     Done waiting for all views to stop loading
-[3.259][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595776"
-   }
-}
-
-[3.261][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595776/value) with params {
-   "id": ":wdc:1355463595776",
-   "value": [ "John.Anderson533@yahoo.com" ]
-}
-
-[3.261][FINER]:     Waiting for all views to stop loading...
-[3.261][FINER]:     Done waiting for all views to stop loading
-[3.963][FINER]:     Waiting for all views to stop loading...
-[3.963][FINER]:     Done waiting for all views to stop loading
-[3.963][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595776/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[3.965][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "addUserForm"
-}
-
-[3.965][FINER]:     Waiting for all views to stop loading...
-[3.966][FINER]:     Done waiting for all views to stop loading
-[3.969][FINER]:     Waiting for all views to stop loading...
-[3.969][FINER]:     Done waiting for all views to stop loading
-[3.969][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463595773"
-   }
-}
-
-[3.971][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595773/submit) with params {
-   "id": ":wdc:1355463595773"
-}
-
-[3.971][FINER]:     Waiting for all views to stop loading...
-[3.972][FINER]:     Done waiting for all views to stop loading
-[3.980][FINER]:     Waiting for all views to stop loading...
-[3.980][FINER]:     Done waiting for all views to stop loading
-[3.980][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463595773/submit) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": null
-}
-
-[4.985][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[4.985][FINER]:     Waiting for all views to stop loading...
-[4.985][FINER]:     Done waiting for all views to stop loading
-[4.990][FINER]:     Waiting for all views to stop loading...
-[4.990][FINER]:     Done waiting for all views to stop loading
-[4.990][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[4.995][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/url) with params {
-   "url": "http://localhost:8080/junitIntro"
-}
-
-[4.995][FINER]:     Waiting for all views to stop loading...
-[4.995][FINER]:     Done waiting for all views to stop loading
-[5.008][FINER]:     Waiting for all views to stop loading...
-[5.040][FINER]:     Done waiting for all views to stop loading
-[5.041][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/url) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[5.043][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "link text",
-   "value": "Proceed"
-}
-
-[5.043][FINER]:     Waiting for all views to stop loading...
-[5.044][FINER]:     Done waiting for all views to stop loading
-[5.048][FINER]:     Waiting for all views to stop loading...
-[5.048][FINER]:     Done waiting for all views to stop loading
-[5.049][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598513"
-   }
-}
-
-[5.051][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598513/click) with params {
-   "id": ":wdc:1355463598513"
-}
-
-[5.051][FINER]:     Waiting for all views to stop loading...
-[5.051][FINER]:     Done waiting for all views to stop loading
-[5.086][FINER]:     Waiting for all views to stop loading...
-[5.133][FINER]:     Done waiting for all views to stop loading
-[5.133][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598513/click) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[5.136][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[5.136][FINER]:     Waiting for all views to stop loading...
-[5.171][FINER]:     Done waiting for all views to stop loading
-[5.219][FINER]:     Waiting for all views to stop loading...
-[5.251][FINER]:     Done waiting for all views to stop loading
-[5.251][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[5.255][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "firstName"
-}
-
-[5.255][FINER]:     Waiting for all views to stop loading...
-[5.285][FINER]:     Done waiting for all views to stop loading
-[5.332][FINER]:     Waiting for all views to stop loading...
-[5.351][FINER]:     Done waiting for all views to stop loading
-[5.351][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598782"
-   }
-}
-
-[5.354][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598782/value) with params {
-   "id": ":wdc:1355463598782",
-   "value": [ "Jim" ]
-}
-
-[5.354][FINER]:     Waiting for all views to stop loading...
-[5.385][FINER]:     Done waiting for all views to stop loading
-[5.717][FINER]:     Waiting for all views to stop loading...
-[5.717][FINER]:     Done waiting for all views to stop loading
-[5.717][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598782/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[5.720][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "lastName"
-}
-
-[5.720][FINER]:     Waiting for all views to stop loading...
-[5.720][FINER]:     Done waiting for all views to stop loading
-[5.725][FINER]:     Waiting for all views to stop loading...
-[5.725][FINER]:     Done waiting for all views to stop loading
-[5.725][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598783"
-   }
-}
-
-[5.727][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598783/value) with params {
-   "id": ":wdc:1355463598783",
-   "value": [ "Hendricks" ]
-}
-
-[5.727][FINER]:     Waiting for all views to stop loading...
-[5.727][FINER]:     Done waiting for all views to stop loading
-[5.934][FINER]:     Waiting for all views to stop loading...
-[5.934][FINER]:     Done waiting for all views to stop loading
-[5.934][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598783/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[5.936][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "email"
-}
-
-[5.936][FINER]:     Waiting for all views to stop loading...
-[5.937][FINER]:     Done waiting for all views to stop loading
-[5.940][FINER]:     Waiting for all views to stop loading...
-[5.940][FINER]:     Done waiting for all views to stop loading
-[5.940][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598784"
-   }
-}
-
-[5.943][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598784/value) with params {
-   "id": ":wdc:1355463598784",
-   "value": [ "Jim.Hendricks550@yahoo.com" ]
-}
-
-[5.943][FINER]:     Waiting for all views to stop loading...
-[5.943][FINER]:     Done waiting for all views to stop loading
-[6.669][FINER]:     Waiting for all views to stop loading...
-[6.669][FINER]:     Done waiting for all views to stop loading
-[6.669][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598784/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[6.671][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "addUserForm"
-}
-
-[6.671][FINER]:     Waiting for all views to stop loading...
-[6.671][FINER]:     Done waiting for all views to stop loading
-[6.674][FINER]:     Waiting for all views to stop loading...
-[6.675][FINER]:     Done waiting for all views to stop loading
-[6.675][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598785"
-   }
-}
-
-[6.677][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598785/submit) with params {
-   "id": ":wdc:1355463598785"
-}
-
-[6.677][FINER]:     Waiting for all views to stop loading...
-[6.677][FINER]:     Done waiting for all views to stop loading
-[6.701][FINER]:     Waiting for all views to stop loading...
-[6.701][FINER]:     Done waiting for all views to stop loading
-[6.701][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598785/submit) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": null
-}
-
-[7.704][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[7.704][FINER]:     Waiting for all views to stop loading...
-[7.705][FINER]:     Done waiting for all views to stop loading
-[7.708][FINER]:     Waiting for all views to stop loading...
-[7.709][FINER]:     Done waiting for all views to stop loading
-[7.709][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[7.712][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element) with params {
-   "using": "id",
-   "value": "searchString"
-}
-
-[7.712][FINER]:     Waiting for all views to stop loading...
-[7.712][FINER]:     Done waiting for all views to stop loading
-[7.723][FINER]:     Waiting for all views to stop loading...
-[7.723][FINER]:     Done waiting for all views to stop loading
-[7.723][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1355463598786"
-   }
-}
-
-[7.739][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598786/value) with params {
-   "id": ":wdc:1355463598786",
-   "value": [ "Jim.Hendricks550" ]
-}
-
-[7.739][FINER]:     Waiting for all views to stop loading...
-[7.740][FINER]:     Done waiting for all views to stop loading
-[8.305][FINER]:     Waiting for all views to stop loading...
-[8.323][FINER]:     Done waiting for all views to stop loading
-[8.323][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/element/:wdc:1355463598786/value) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[8.325][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[8.325][FINER]:     Waiting for all views to stop loading...
-[8.325][FINER]:     Done waiting for all views to stop loading
-[8.327][FINER]:     Waiting for all views to stop loading...
-[8.328][FINER]:     Done waiting for all views to stop loading
-[8.328][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[8.329][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957/source)
-[8.329][FINER]:     Waiting for all views to stop loading...
-[8.330][FINER]:     Done waiting for all views to stop loading
-[8.331][FINER]:     Waiting for all views to stop loading...
-[8.331][FINER]:     Done waiting for all views to stop loading
-[8.331][FINE]:      Command finished (/session/e499ee6a2b6a749f493efc606833b957/source) with response {
-   "sessionId": "e499ee6a2b6a749f493efc606833b957",
-   "status": 0,
-   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
-}
-
-[8.338][FINE]:      Command received (/session/e499ee6a2b6a749f493efc606833b957)
-[8.426][INFO]:      Chrome shutdown
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\sandbox\junit_intro\src\test\resources\windows\chromedriver.exe
+[0.499][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.500][INFO]:      Launching chrome: "C:\Users\lakdawala.ayaz\AppData\Local\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[1.407][INFO]:      Connected to Chrome successfully. Version: 23.0.1271.97
+[1.450][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394)
+[1.450][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "23.0.1271.97",
+      "webStorageEnabled": true
+   }
+}
+
+[1.476][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/url) with params {
+   "url": "http://localhost:8080/junitIntro"
+}
+
+[1.476][FINER]:     Waiting for all views to stop loading...
+[1.479][FINER]:     Done waiting for all views to stop loading
+[1.658][FINER]:     Waiting for all views to stop loading...
+[1.768][FINER]:     Done waiting for all views to stop loading
+[1.768][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/url) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.771][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/title)
+[1.771][FINER]:     Waiting for all views to stop loading...
+[1.771][FINER]:     Done waiting for all views to stop loading
+[1.777][FINER]:     Waiting for all views to stop loading...
+[1.777][FINER]:     Done waiting for all views to stop loading
+[1.777][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/title) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "Introduction to JUnit."
+}
+
+[1.780][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "link text",
+   "value": "Proceed"
+}
+
+[1.780][FINER]:     Waiting for all views to stop loading...
+[1.780][FINER]:     Done waiting for all views to stop loading
+[1.801][FINER]:     Waiting for all views to stop loading...
+[1.801][FINER]:     Done waiting for all views to stop loading
+[1.801][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499432963"
+   } ]
+}
+
+[1.805][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "link text",
+   "value": "Proceed"
+}
+
+[1.805][FINER]:     Waiting for all views to stop loading...
+[1.805][FINER]:     Done waiting for all views to stop loading
+[1.821][FINER]:     Waiting for all views to stop loading...
+[1.822][FINER]:     Done waiting for all views to stop loading
+[1.822][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499432963"
+   }
+}
+
+[1.824][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499432963/click) with params {
+   "id": ":wdc:1355499432963"
+}
+
+[1.825][FINER]:     Waiting for all views to stop loading...
+[1.825][FINER]:     Done waiting for all views to stop loading
+[1.889][FINER]:     Waiting for all views to stop loading...
+[2.172][FINER]:     Done waiting for all views to stop loading
+[2.172][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499432963/click) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.175][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[2.175][FINER]:     Waiting for all views to stop loading...
+[2.175][FINER]:     Done waiting for all views to stop loading
+[2.225][FINER]:     Waiting for all views to stop loading...
+[2.226][FINER]:     Done waiting for all views to stop loading
+[2.226][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[2.232][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/url) with params {
+   "url": "http://localhost:8080/junitIntro"
+}
+
+[2.232][FINER]:     Waiting for all views to stop loading...
+[2.233][FINER]:     Done waiting for all views to stop loading
+[2.628][FINER]:     Waiting for all views to stop loading...
+[3.532][FINER]:     Done waiting for all views to stop loading
+[3.532][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/url) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.536][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "link text",
+   "value": "Proceed"
+}
+
+[3.536][FINER]:     Waiting for all views to stop loading...
+[3.536][FINER]:     Done waiting for all views to stop loading
+[3.551][FINER]:     Waiting for all views to stop loading...
+[3.551][FINER]:     Done waiting for all views to stop loading
+[3.551][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499434714"
+   }
+}
+
+[3.554][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499434714/click) with params {
+   "id": ":wdc:1355499434714"
+}
+
+[3.554][FINER]:     Waiting for all views to stop loading...
+[3.554][FINER]:     Done waiting for all views to stop loading
+[3.594][FINER]:     Waiting for all views to stop loading...
+[3.773][FINER]:     Done waiting for all views to stop loading
+[3.773][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499434714/click) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.776][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[3.776][FINER]:     Waiting for all views to stop loading...
+[3.776][FINER]:     Done waiting for all views to stop loading
+[3.821][FINER]:     Waiting for all views to stop loading...
+[3.821][FINER]:     Done waiting for all views to stop loading
+[3.821][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[3.827][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "addUserForm"
+}
+
+[3.827][FINER]:     Waiting for all views to stop loading...
+[3.827][FINER]:     Done waiting for all views to stop loading
+[3.870][FINER]:     Waiting for all views to stop loading...
+[3.871][FINER]:     Done waiting for all views to stop loading
+[3.871][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435033"
+   } ]
+}
+
+[3.873][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "submitAddUserForm"
+}
+
+[3.873][FINER]:     Waiting for all views to stop loading...
+[3.873][FINER]:     Done waiting for all views to stop loading
+[3.886][FINER]:     Waiting for all views to stop loading...
+[3.886][FINER]:     Done waiting for all views to stop loading
+[3.886][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435034"
+   } ]
+}
+
+[3.888][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[3.888][FINER]:     Waiting for all views to stop loading...
+[3.889][FINER]:     Done waiting for all views to stop loading
+[3.892][FINER]:     Waiting for all views to stop loading...
+[3.892][FINER]:     Done waiting for all views to stop loading
+[3.892][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[3.895][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[3.895][FINER]:     Waiting for all views to stop loading...
+[3.896][FINER]:     Done waiting for all views to stop loading
+[3.899][FINER]:     Waiting for all views to stop loading...
+[3.899][FINER]:     Done waiting for all views to stop loading
+[3.899][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[3.902][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[3.902][FINER]:     Waiting for all views to stop loading...
+[3.903][FINER]:     Done waiting for all views to stop loading
+[3.906][FINER]:     Waiting for all views to stop loading...
+[3.906][FINER]:     Done waiting for all views to stop loading
+[3.906][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[3.910][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "firstName"
+}
+
+[3.910][FINER]:     Waiting for all views to stop loading...
+[3.910][FINER]:     Done waiting for all views to stop loading
+[3.923][FINER]:     Waiting for all views to stop loading...
+[3.923][FINER]:     Done waiting for all views to stop loading
+[3.923][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435035"
+   } ]
+}
+
+[3.925][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "lastName"
+}
+
+[3.925][FINER]:     Waiting for all views to stop loading...
+[3.926][FINER]:     Done waiting for all views to stop loading
+[3.949][FINER]:     Waiting for all views to stop loading...
+[3.949][FINER]:     Done waiting for all views to stop loading
+[3.949][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435036"
+   } ]
+}
+
+[3.952][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "email"
+}
+
+[3.952][FINER]:     Waiting for all views to stop loading...
+[3.952][FINER]:     Done waiting for all views to stop loading
+[3.965][FINER]:     Waiting for all views to stop loading...
+[3.965][FINER]:     Done waiting for all views to stop loading
+[3.965][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435037"
+   } ]
+}
+
+[3.968][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[3.968][FINER]:     Waiting for all views to stop loading...
+[3.968][FINER]:     Done waiting for all views to stop loading
+[3.971][FINER]:     Waiting for all views to stop loading...
+[3.971][FINER]:     Done waiting for all views to stop loading
+[3.971][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[3.975][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "searchString"
+}
+
+[3.975][FINER]:     Waiting for all views to stop loading...
+[3.975][FINER]:     Done waiting for all views to stop loading
+[3.987][FINER]:     Waiting for all views to stop loading...
+[3.988][FINER]:     Done waiting for all views to stop loading
+[3.988][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435038"
+   } ]
+}
+
+[3.990][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/elements) with params {
+   "using": "id",
+   "value": "contactsTable"
+}
+
+[3.990][FINER]:     Waiting for all views to stop loading...
+[3.990][FINER]:     Done waiting for all views to stop loading
+[4.003][FINER]:     Waiting for all views to stop loading...
+[4.003][FINER]:     Done waiting for all views to stop loading
+[4.003][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/elements) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1355499435039"
+   } ]
+}
+
+[4.005][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[4.006][FINER]:     Waiting for all views to stop loading...
+[4.006][FINER]:     Done waiting for all views to stop loading
+[4.009][FINER]:     Waiting for all views to stop loading...
+[4.009][FINER]:     Done waiting for all views to stop loading
+[4.009][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[4.013][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[4.013][FINER]:     Waiting for all views to stop loading...
+[4.013][FINER]:     Done waiting for all views to stop loading
+[4.016][FINER]:     Waiting for all views to stop loading...
+[4.017][FINER]:     Done waiting for all views to stop loading
+[4.017][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[4.020][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[4.020][FINER]:     Waiting for all views to stop loading...
+[4.021][FINER]:     Done waiting for all views to stop loading
+[4.024][FINER]:     Waiting for all views to stop loading...
+[4.024][FINER]:     Done waiting for all views to stop loading
+[4.025][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[4.029][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/url) with params {
+   "url": "http://localhost:8080/junitIntro"
+}
+
+[4.029][FINER]:     Waiting for all views to stop loading...
+[4.029][FINER]:     Done waiting for all views to stop loading
+[4.225][FINER]:     Waiting for all views to stop loading...
+[4.227][FINER]:     Done waiting for all views to stop loading
+[4.227][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/url) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[4.231][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "link text",
+   "value": "Proceed"
+}
+
+[4.231][FINER]:     Waiting for all views to stop loading...
+[4.232][FINER]:     Done waiting for all views to stop loading
+[4.256][FINER]:     Waiting for all views to stop loading...
+[4.256][FINER]:     Done waiting for all views to stop loading
+[4.256][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435419"
+   }
+}
+
+[4.260][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435419/click) with params {
+   "id": ":wdc:1355499435419"
+}
+
+[4.260][FINER]:     Waiting for all views to stop loading...
+[4.260][FINER]:     Done waiting for all views to stop loading
+[4.338][FINER]:     Waiting for all views to stop loading...
+[4.579][FINER]:     Done waiting for all views to stop loading
+[4.580][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435419/click) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[4.583][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[4.583][FINER]:     Waiting for all views to stop loading...
+[4.583][FINER]:     Done waiting for all views to stop loading
+[4.633][FINER]:     Waiting for all views to stop loading...
+[4.633][FINER]:     Done waiting for all views to stop loading
+[4.634][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[4.639][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "addUserForm"
+}
+
+[4.639][FINER]:     Waiting for all views to stop loading...
+[4.640][FINER]:     Done waiting for all views to stop loading
+[4.661][FINER]:     Waiting for all views to stop loading...
+[4.662][FINER]:     Done waiting for all views to stop loading
+[4.662][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435824"
+   }
+}
+
+[4.665][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435824/submit) with params {
+   "id": ":wdc:1355499435824"
+}
+
+[4.665][FINER]:     Waiting for all views to stop loading...
+[4.665][FINER]:     Done waiting for all views to stop loading
+[4.698][FINER]:     Waiting for all views to stop loading...
+[4.698][FINER]:     Done waiting for all views to stop loading
+[4.698][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435824/submit) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": null
+}
+
+[5.203][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/alert_text)
+[5.203][FINER]:     Waiting for all views to stop loading...
+[5.204][FINER]:     Done waiting for all views to stop loading
+[5.204][FINER]:     Waiting for all views to stop loading...
+[5.205][FINER]:     Done waiting for all views to stop loading
+[5.205][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/alert_text) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "Error occured"
+}
+
+[5.212][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/accept_alert) with params {
+
+}
+
+[5.212][FINER]:     Waiting for all views to stop loading...
+[5.212][FINER]:     Done waiting for all views to stop loading
+[5.218][FINER]:     Waiting for all views to stop loading...
+[5.244][FINER]:     Done waiting for all views to stop loading
+[5.244][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/accept_alert) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[5.246][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "firstName"
+}
+
+[5.246][FINER]:     Waiting for all views to stop loading...
+[5.247][FINER]:     Done waiting for all views to stop loading
+[5.258][FINER]:     Waiting for all views to stop loading...
+[5.258][FINER]:     Done waiting for all views to stop loading
+[5.258][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435825"
+   }
+}
+
+[5.261][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435825/value) with params {
+   "id": ":wdc:1355499435825",
+   "value": [ "John" ]
+}
+
+[5.261][FINER]:     Waiting for all views to stop loading...
+[5.262][FINER]:     Done waiting for all views to stop loading
+[5.361][FINER]:     Waiting for all views to stop loading...
+[5.362][FINER]:     Done waiting for all views to stop loading
+[5.362][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435825/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[5.364][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "lastName"
+}
+
+[5.364][FINER]:     Waiting for all views to stop loading...
+[5.364][FINER]:     Done waiting for all views to stop loading
+[5.378][FINER]:     Waiting for all views to stop loading...
+[5.378][FINER]:     Done waiting for all views to stop loading
+[5.378][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435826"
+   }
+}
+
+[5.381][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435826/value) with params {
+   "id": ":wdc:1355499435826",
+   "value": [ "Anderson" ]
+}
+
+[5.381][FINER]:     Waiting for all views to stop loading...
+[5.381][FINER]:     Done waiting for all views to stop loading
+[5.461][FINER]:     Waiting for all views to stop loading...
+[5.461][FINER]:     Done waiting for all views to stop loading
+[5.461][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435826/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[5.464][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "email"
+}
+
+[5.464][FINER]:     Waiting for all views to stop loading...
+[5.464][FINER]:     Done waiting for all views to stop loading
+[5.475][FINER]:     Waiting for all views to stop loading...
+[5.476][FINER]:     Done waiting for all views to stop loading
+[5.476][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435827"
+   }
+}
+
+[5.478][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435827/value) with params {
+   "id": ":wdc:1355499435827",
+   "value": [ "John.Anderson565@yahoo.com" ]
+}
+
+[5.478][FINER]:     Waiting for all views to stop loading...
+[5.479][FINER]:     Done waiting for all views to stop loading
+[5.649][FINER]:     Waiting for all views to stop loading...
+[5.649][FINER]:     Done waiting for all views to stop loading
+[5.649][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435827/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[5.652][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "addUserForm"
+}
+
+[5.652][FINER]:     Waiting for all views to stop loading...
+[5.652][FINER]:     Done waiting for all views to stop loading
+[5.659][FINER]:     Waiting for all views to stop loading...
+[5.659][FINER]:     Done waiting for all views to stop loading
+[5.659][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499435824"
+   }
+}
+
+[5.662][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435824/submit) with params {
+   "id": ":wdc:1355499435824"
+}
+
+[5.662][FINER]:     Waiting for all views to stop loading...
+[5.662][FINER]:     Done waiting for all views to stop loading
+[5.675][FINER]:     Waiting for all views to stop loading...
+[5.675][FINER]:     Done waiting for all views to stop loading
+[5.675][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499435824/submit) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": null
+}
+
+[6.680][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[6.680][FINER]:     Waiting for all views to stop loading...
+[6.680][FINER]:     Done waiting for all views to stop loading
+[6.717][FINER]:     Waiting for all views to stop loading...
+[6.717][FINER]:     Done waiting for all views to stop loading
+[6.717][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[6.727][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/url) with params {
+   "url": "http://localhost:8080/junitIntro"
+}
+
+[6.727][FINER]:     Waiting for all views to stop loading...
+[6.728][FINER]:     Done waiting for all views to stop loading
+[6.879][FINER]:     Waiting for all views to stop loading...
+[6.880][FINER]:     Done waiting for all views to stop loading
+[6.880][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/url) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.883][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "link text",
+   "value": "Proceed"
+}
+
+[6.883][FINER]:     Waiting for all views to stop loading...
+[6.883][FINER]:     Done waiting for all views to stop loading
+[6.916][FINER]:     Waiting for all views to stop loading...
+[6.916][FINER]:     Done waiting for all views to stop loading
+[6.916][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438078"
+   }
+}
+
+[6.919][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438078/click) with params {
+   "id": ":wdc:1355499438078"
+}
+
+[6.919][FINER]:     Waiting for all views to stop loading...
+[6.919][FINER]:     Done waiting for all views to stop loading
+[6.995][FINER]:     Waiting for all views to stop loading...
+[7.202][FINER]:     Done waiting for all views to stop loading
+[7.202][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438078/click) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.206][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[7.206][FINER]:     Waiting for all views to stop loading...
+[7.206][FINER]:     Done waiting for all views to stop loading
+[7.248][FINER]:     Waiting for all views to stop loading...
+[7.249][FINER]:     Done waiting for all views to stop loading
+[7.249][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[7.254][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "firstName"
+}
+
+[7.254][FINER]:     Waiting for all views to stop loading...
+[7.254][FINER]:     Done waiting for all views to stop loading
+[7.270][FINER]:     Waiting for all views to stop loading...
+[7.270][FINER]:     Done waiting for all views to stop loading
+[7.270][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438433"
+   }
+}
+
+[7.274][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438433/value) with params {
+   "id": ":wdc:1355499438433",
+   "value": [ "Jim" ]
+}
+
+[7.274][FINER]:     Waiting for all views to stop loading...
+[7.274][FINER]:     Done waiting for all views to stop loading
+[7.351][FINER]:     Waiting for all views to stop loading...
+[7.351][FINER]:     Done waiting for all views to stop loading
+[7.351][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438433/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.354][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "lastName"
+}
+
+[7.354][FINER]:     Waiting for all views to stop loading...
+[7.355][FINER]:     Done waiting for all views to stop loading
+[7.359][FINER]:     Waiting for all views to stop loading...
+[7.360][FINER]:     Done waiting for all views to stop loading
+[7.360][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438434"
+   }
+}
+
+[7.363][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438434/value) with params {
+   "id": ":wdc:1355499438434",
+   "value": [ "Hendricks" ]
+}
+
+[7.363][FINER]:     Waiting for all views to stop loading...
+[7.363][FINER]:     Done waiting for all views to stop loading
+[7.475][FINER]:     Waiting for all views to stop loading...
+[7.476][FINER]:     Done waiting for all views to stop loading
+[7.476][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438434/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.478][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "email"
+}
+
+[7.478][FINER]:     Waiting for all views to stop loading...
+[7.479][FINER]:     Done waiting for all views to stop loading
+[7.483][FINER]:     Waiting for all views to stop loading...
+[7.483][FINER]:     Done waiting for all views to stop loading
+[7.483][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438435"
+   }
+}
+
+[7.486][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438435/value) with params {
+   "id": ":wdc:1355499438435",
+   "value": [ "Jim.Hendricks504@yahoo.com" ]
+}
+
+[7.486][FINER]:     Waiting for all views to stop loading...
+[7.487][FINER]:     Done waiting for all views to stop loading
+[7.588][FINER]:     Waiting for all views to stop loading...
+[7.588][FINER]:     Done waiting for all views to stop loading
+[7.588][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438435/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.591][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "addUserForm"
+}
+
+[7.591][FINER]:     Waiting for all views to stop loading...
+[7.591][FINER]:     Done waiting for all views to stop loading
+[7.596][FINER]:     Waiting for all views to stop loading...
+[7.596][FINER]:     Done waiting for all views to stop loading
+[7.596][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438436"
+   }
+}
+
+[7.598][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438436/submit) with params {
+   "id": ":wdc:1355499438436"
+}
+
+[7.599][FINER]:     Waiting for all views to stop loading...
+[7.599][FINER]:     Done waiting for all views to stop loading
+[7.625][FINER]:     Waiting for all views to stop loading...
+[7.625][FINER]:     Done waiting for all views to stop loading
+[7.625][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438436/submit) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": null
+}
+
+[8.630][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[8.630][FINER]:     Waiting for all views to stop loading...
+[8.631][FINER]:     Done waiting for all views to stop loading
+[8.668][FINER]:     Waiting for all views to stop loading...
+[8.668][FINER]:     Done waiting for all views to stop loading
+[8.668][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[8.677][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element) with params {
+   "using": "id",
+   "value": "searchString"
+}
+
+[8.677][FINER]:     Waiting for all views to stop loading...
+[8.678][FINER]:     Done waiting for all views to stop loading
+[8.689][FINER]:     Waiting for all views to stop loading...
+[8.689][FINER]:     Done waiting for all views to stop loading
+[8.689][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1355499438437"
+   }
+}
+
+[8.692][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438437/value) with params {
+   "id": ":wdc:1355499438437",
+   "value": [ "Jim.Hendricks504" ]
+}
+
+[8.692][FINER]:     Waiting for all views to stop loading...
+[8.692][FINER]:     Done waiting for all views to stop loading
+[8.968][FINER]:     Waiting for all views to stop loading...
+[8.968][FINER]:     Done waiting for all views to stop loading
+[8.969][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/element/:wdc:1355499438437/value) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[8.972][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[8.972][FINER]:     Waiting for all views to stop loading...
+[8.972][FINER]:     Done waiting for all views to stop loading
+[8.992][FINER]:     Waiting for all views to stop loading...
+[8.993][FINER]:     Done waiting for all views to stop loading
+[8.993][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[9.001][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394/source)
+[9.001][FINER]:     Waiting for all views to stop loading...
+[9.002][FINER]:     Done waiting for all views to stop loading
+[9.019][FINER]:     Waiting for all views to stop loading...
+[9.020][FINER]:     Done waiting for all views to stop loading
+[9.020][FINE]:      Command finished (/session/942cf44ef807f1c3dd740927ff14d394/source) with response {
+   "sessionId": "942cf44ef807f1c3dd740927ff14d394",
+   "status": 0,
+   "value": "\u003Chtml\u003E\u003Chead\u003E\n\t\u003Cmeta charset=\"UTF-8\"\u003E\n\t\u003Ctitle\u003EIntroduction to JUnit.\u003C/title\u003E\n\t\u003Cscript src=\"http://..."
+}
+
+[9.763][FINE]:      Command received (/session/942cf44ef807f1c3dd740927ff14d394)
+[9.961][INFO]:      Chrome shutdown

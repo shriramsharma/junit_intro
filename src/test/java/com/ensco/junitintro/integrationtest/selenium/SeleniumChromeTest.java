@@ -40,7 +40,7 @@ public class SeleniumChromeTest {
 	@BeforeClass
 	public static void setChromeDriver() {
 		System.setProperty("webdriver.chrome.driver",
-				"src/test/resources/chromedriver");
+				"src/test/resources/windows/chromedriver.exe");
 	}
 
 	/**
