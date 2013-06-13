@@ -1,0 +1,9 @@
+This project is a quick intro to the world of Junit test and selenium test.
+
+Installation:
+git clone <url>
+maven install <project>
+
+If you have STS, just import it as an existing maven project and rest everythingwill be taken care of by maven.
+
+Once you have the project ready. Deploy it your favorite application server.
